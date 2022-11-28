@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+        <header>
+            <h1>Meu Site</h1>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="#">Opção 1</a></li>
+                    <li><a href="#">Opção 2</a></li>
+                    <li><a href="#">Opção 3</a></li>
+                    <li><a href="#">Opção 4</a></li>
+                    <li><a href="#">Opção 5</a></li>
+                </ul>
+            </menu>
+        </header>
+        <main>
+            <article>
+                <h2>Documento revela como a indústria atua contra políticas de alimentação</h2>
+                <p>
+                    O “Dossiê Big Food: Como a indústria interfere em políticas de alimentação” acaba de ser lançado pela ACT Promoção da Saúde e pelo Instituto Brasileiro de Defesa do Consumidor-Idec. Em linguagem acessível, ilustrada com gráficos explicativos, a publicação revela a influência da indústria sobre parlamentares, pesquisadores, meios de comunicação e a população em geral. Os dados são respaldados em pesquisas científicas destacados na extensa lista de referências bibliográficas.
+                    
+                </p>
+                <p>
+                    A partir de oito casos, o documento expõe expedientes utilizados sistematicamente para alterar, postergar ou anular políticas públicas que, de alguma maneira, ameacem o lucro da indústria, mesmo que a implementação dessas medidas impacte positivamente a qualidade de vida de toda a população.
+                </p>
+                <p>
+                    Ao chamar atenção para os ataques dos gigantes da alimentação contra a saúde pública, a ACT e o Idec esperam esclarecer a sociedade e, assim, discutir saídas para neutralizar a situação. O dossiê, no entanto, também nos ajuda a entender de que forma estamos inseridos em um sistema alimentar que, paradoxalmente, promove fome e obesidade, além de contribuir para acelerar as mudanças climáticas.
+                </p>
+                <p>
+                    Entre os exemplos levantados pelo estudo, se destacam histórias de concessão de privilégios, como os incentivos fiscais para a produção de alimentos que fazem mal à saúde. Evidências de obstrução de informação, tal e qual as manobras para impedir os selos de advertência nos rótulos dos ultraprocessados. Ou, ainda, a promoção de discursos que tentam reduzir problemas de saúde pública à mera questão de mudança de hábito. 
+                </p>
+                <p>
+                    Em algumas situações, como na operação para desqualificar e boicotar o Guia Alimentar para a População Brasileira, fica evidente o apoio de políticos e pesquisadores financiados pelo setor. Já durante os piores momentos da pandemia de Covid-19, notamos o surgimento de ações de autopromoção disfarçadas de gestos de filantropia sempre com ampla repercussão na mídia. 
+                </p>
+                <p>
+                    Além de trazer à tona evidências da interferência da indústria de alimentos, o Dossiê Big Food aponta saídas, como destaca no prefácio Inês Rugani, professora associada do Instituto de Nutrição da Universidade do Estado do Rio de Janeiro (UERJ):  
+                </p>
+                <p>
+                    “Ela (a publicação) também traz conteúdo importante sobre mecanismos para prevenir e lidar com conflitos de interesses na área de alimentação e nutrição.”
+                </p>
+                <p>
+                    <i>Angélica Brum</i>  
+                </p>
+    
+            </article>
+        </main>
+        <script>
+            function clickMenu() 
+            {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                }
+                else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
+
+
+</body>
+</html>
